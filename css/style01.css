@@ -1,0 +1,133 @@
+/* 라이브러리 */
+
+.con {
+    width: 1200px;
+    max-width: none !important;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+/* section 기본값 */
+section {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* nav */
+nav {
+    width: 163px;
+    height: 446px;
+    background: linear-gradient(251.3deg, rgba(255, 255, 255, 0.85) 3.21%, rgba(255, 255, 255, 0) 103.61%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+
+    position: absolute;
+    z-index: 9999;
+    top: 295px;
+    left: 74px;
+
+}
+
+nav .top {
+    width: 100%;
+    height: 96px;
+    border: 1px solid #C8C8C8;
+}
+
+nav .top .arrow-box{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 1px solid #001AFF;
+}
+
+nav .bottom {
+    width: 100%;
+    height: 350px;
+}
+
+nav .bottom .text-box{
+    font-size:22px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+
+/* section01 st */
+.section01 .video-wrap {
+    width: 100%;
+    height: 1080px;
+    background-color: #f9f9f9;
+}
+
+.section01 .video-wrap2 {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section01 .main-img1 {
+    width: 300px;
+    position: absolute;
+    top: 205px;
+    left: 1041.24px;
+    /* fly 애니메이션을 한 로테이션 3초 동안 일정한 속도(linear)로 무한반복(infinite) */
+    animation: fly 2.5s linear infinite;
+}
+
+@keyframes fly {
+
+    /* 지워도 됩니다! 0% 일 때는 아무런 값을 주지 않아 기본값. 평소 상태를 의미 */
+    0% {}
+
+    /* 50% 일 때에는 margin-top이 30px이어야 한다! */
+    50% {
+        margin-top: 30px;
+    }
+
+    /* 지워도 됩니다! 100% 일 때는 아무런 값을 주지 않아 기본값. 평소 상태를 의미 */
+    100% {}
+}
+
+.section01 .main-img2 {
+    width: 300px;
+    position: absolute;
+    top: 690.07px;
+    left: 425px;
+    animation: fly 2.5s linear infinite;
+}
+
+@keyframes fly {
+
+    0% {}
+
+    50% {
+        margin-top: 30px;
+    }
+
+    100% {}
+}
+
+
+/* section02 st */
+.section02 video {
+    margin: 0 auto;
+}
+
+
+.box1 {
+    width: 100px;
+    height: 300px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.box2 {
+    width: 100px;
+    height: 2000px;
+    background-color: red;
+}
