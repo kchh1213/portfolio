@@ -2,8 +2,8 @@
 
 .con {
     width: 1200px;
-    max-width: none !important;
-    /* max-width: 1200px; */
+    /* max-width: none !important; */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -16,12 +16,12 @@ section {
 nav {
     width: 163px;
     height: 446px;
-    background: linear-gradient(251.3deg, rgba(255, 255, 255, 0.85) 3.21%, rgba(255, 255, 255, 0) 103.61%);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: linear-gradient(251.3deg, rgba(255, 255, 255, 0.8) 3.21%, rgba(255, 255, 255, 0.8) 103.61%);
+    box-shadow: 0px 4px 4px rgba(116, 116, 116, 0.25);
     backdrop-filter: blur(4px);
     border-radius: 30px;
 
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     top: 295px;
     left: 74px;
@@ -31,15 +31,22 @@ nav {
 nav .top {
     width: 100%;
     height: 96px;
-    border: 1px solid #C8C8C8;
+    border-bottom: 1px solid #000000;
 }
 
-nav .top .arrow-box{
+nav .top .arrow-box {
     width: 60px;
     height: 60px;
     background-color: #fff;
     border-radius: 100%;
     border: 1px solid #001AFF;
+    font-size: 30px;
+    color: #001AFF;
+}
+
+nav .top .arrow-box:hover {
+    color: white;
+    background-color: #001AFF;
 }
 
 nav .bottom {
@@ -47,10 +54,14 @@ nav .bottom {
     height: 350px;
 }
 
-nav .bottom .text-box{
-    font-size:22px;
+nav .bottom .text-box {
+    font-size: 20px;
     font-weight: 900;
     line-height: 60px;
+}
+
+nav .bottom .text-box ul li a:hover {
+    color: #001AFF;
 }
 
 
@@ -75,21 +86,16 @@ nav .bottom .text-box{
     position: absolute;
     top: 205px;
     left: 1041.24px;
-    /* fly 애니메이션을 한 로테이션 3초 동안 일정한 속도(linear)로 무한반복(infinite) */
     animation: fly 2.5s linear infinite;
 }
 
 @keyframes fly {
-
-    /* 지워도 됩니다! 0% 일 때는 아무런 값을 주지 않아 기본값. 평소 상태를 의미 */
     0% {}
 
-    /* 50% 일 때에는 margin-top이 30px이어야 한다! */
     50% {
         margin-top: 30px;
     }
 
-    /* 지워도 됩니다! 100% 일 때는 아무런 값을 주지 않아 기본값. 평소 상태를 의미 */
     100% {}
 }
 
@@ -115,19 +121,96 @@ nav .bottom .text-box{
 
 /* section02 st */
 .section02 video {
-    margin: 0 auto;
+    width: 70%;
 }
 
-
-.box1 {
-    width: 100px;
-    height: 300px;
-    background-color: blue;
+.section02 .text-box {
     margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-.box2 {
-    width: 100px;
-    height: 2000px;
+.section02 .half-highlight {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #8E99FF 50%);
+}
+
+.section02 .text-box2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section02 .btn-box {
+    width: 198px;
+    height: 56px;
+    border: 1px solid #001AFF;
+    border-radius: 6px;
+    margin: 0 auto;
+    color: #001AFF;
+    font-size: 20px;
+    background-color: white;
+}
+
+.section02 .btn-box:hover {
+    background-color: #001AFF;
+    color: white;
+}
+
+.section02 .btn-box:hover>svg {
+    fill: red;
+}
+
+/* section03 st */
+
+.section03 .text-box {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section03 .box {
+    width: 1200px;
+    height: 630px;
+    background-color: pink;
+}
+
+.section03 .box .left {
+    width: 523px;
+    height: 100%;
     background-color: red;
+}
+
+
+.section03 .box .left .skill-mainbox {
+    background: #FFFFFF;
+    /* blue */
+    border: 1px solid #001AFF;
+    box-shadow: 0px 2px 17px 10px rgba(233, 233, 233, 0.54);
+    border-radius: 32px;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.section03 .box .left .skill-mainbox .text-box{
+    
+}
+.section03 .box .right {
+    width: 600px;
+    height: 100%;
+    background-color: blue;
+}
+
+.section03 .box .right .work-mainbox {
+    background: #FFFFFF;
+    /* blue */
+    border: 1px solid #001AFF;
+    box-shadow: 0px 2px 17px 10px rgba(233, 233, 233, 0.54);
+    border-radius: 32px;
+
+    width: 100%;
+    height: 100%;
 }

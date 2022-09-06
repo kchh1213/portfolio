@@ -46,25 +46,38 @@
 </head>
 
 <body>
+
     <nav class="flex flex-col">
         <div class="top flex items-center justify-center">
             <div class="arrow-box flex items-center justify-center">
-                <img src="./img/arrow.svg" alt="">
+                <i class="fa-solid fa-chevron-down"></i>
             </div>
         </div>
-        <div class="bottom flex">
+        <div class="bottom flex justify-center">
             <div class="text-box m-4">
-                <p>home</p>
-            <p>about me</p>
-            <p>portfolio</p>
-            <p>other work</p>
-            <p>contact me</p>
-            </div>          
+                <ul>
+                    <li>
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">about me</a>
+                    </li>
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">other work</a>
+                    </li>
+                    <li>
+                        <a href="#">contact me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <section class="section01">
-        
+
         <div class="video-wrap">
             <div class="video-wrap2">
                 <video src="./img/main.mp4" muted autoplay></video>
@@ -75,18 +88,83 @@
                     <img src="./img/main2.png" alt="">
                 </div>
             </div>
-            
-            
-                    
+
+
+
         </div>
     </section>
-    
 
-    <section class="section02" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="30" data-aos-offset="0">
-        <video src="./img/mee1.mp4" muted autoplay></video>
+    <section class="section02 con"   >
+        <div class="video-box flex justify-center mt-28">
+            <video class="my" src="./img/wa.mp4" muted autoplay loop autoplay muted></video>
+            
+        </div>
+
+        <div class="text-box pt-3 pb-8">
+            <p>안녕하세요! <br>저는 <span class="half-highlight">누구나 쉽게 사용할 수 있는 디자인</span>을 만드는 <br>
+                UX,UI 디자이너입니다.</p>
+        </div>
+        <div class="text-box2 pb-12">
+            저는 UX,UI 디자이너로 <br>
+            쉽고, 직관적인 디자인을 선호하며, <br>
+            이를 활용한 재미있는 동적인 모션이 들어간 것을 좋아합니다. <br>
+            사용자 입장에서 끊임 없이 생각하여 누구나 쉽게 이해하고 사용 할 수 있고 <br>
+            사용함에 있어 새로운 경험과 재미를 주도록 노력하는 디자이너 입니다.
+        </div>
+
+        <a href="#">
+            <div class="btn-box flex justify-center items-center gap-2">
+                이력서 보기
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" fill="none" viewBox="0 0 14 8">
+                    <path fill="#001AFF" fill-rule="evenodd"
+                        d="M11.793 3.5 9.646 1.354l.708-.708 3 3 .353.354-.353.354-3 3-.708-.708L11.793 4.5H0v-1h11.793Z"
+                        clip-rule="evenodd" />
+                </svg>
+
+
+
+
+
+            </div>
+        </a>
+
+        </div>
     </section>
 
-    <div class="box1" data-aos="fade-up"></div>
+    <section class="section03 con pt-60">
+        <div class="text-box pb-14">
+            <p>저는 이런 일을 할 수 있습니다.</p>
+        </div>
+        <div class="box flex justify-between">
+            <div class="left flex flex-col">
+                <div class="skill-box flex justify-center">
+                    <img src="./img/skill.png" alt="">
+                </div>
+
+                <div class="skill-mainbox">
+                    <div class="text-box">
+                        <span>BEST</span>
+                        <p>Figma , adobe xd , illustrator</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="right flex flex-col ">
+                <div class="work-box flex justify-center">
+                    <img src="./img/work.png" alt="">
+                </div>
+
+                <div class="work-mainbox">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
 
     <div class="box2"></div>
 
