@@ -1,13 +1,7 @@
-$(document).ready(function(){
-
-    // document.querySelector('video').addEventListener('ended', myHandler, false);
-
-    // function myHandler(e) {
-    //     console.log('ended');
-    //     setTimeout(function () {
-    //         document.querySelector('video').play();
-    //     }, 10000);
-    // }
+$(document).ready(function () {
+    setTimeout(function () {
+        $(".skills").addClass("active");
+    }, 1000);
 
 
     AOS.init();
