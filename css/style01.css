@@ -347,7 +347,7 @@ nav .bottom .text-box ul li:hover {
 }
 
 .section04 ul li:nth-child(4) .left {
-    background-image: url(../img/port-library.png);
+    background-image: url(../img/meta.png);
 }
 
 .section04 .port-box .right {
@@ -487,7 +487,7 @@ nav .bottom .text-box ul li:hover {
 }
 
 .section05 ul li:nth-child(6):after {
-    content: "META CUBE\A컨셉 디자인";
+    content: "어린이 소변 어플 \A쪼르르 컨셉 UI";
 }
 
 .section05 ul li:nth-child(7):after {
