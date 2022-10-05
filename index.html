@@ -56,20 +56,20 @@
         <div class="bottom flex justify-center">
             <div class="text-box mt-8">
                 <ul class="flex flex-col gap-7">
-                    <li class="fromleft">
-                        <a href="#">home</a>
+                    <li class="fromleft home">
+                        <p>home</p>
                     </li>
-                    <li class="fromleft">
-                        <a href="#">about me</a>
+                    <li class="fromleft about">
+                        <p>about me</p>
                     </li>
-                    <li class="fromleft">
-                        <a href="#">portfolio</a>
+                    <li class="fromleft port">
+                        <p>portfolio</p>
                     </li>
-                    <li class="fromleft">
-                        <a href="#">other work</a>
+                    <li class="fromleft other">
+                        <p>other work</p>
                     </li>
-                    <li class="fromleft">
-                        <a href="#">contact me</a>
+                    <li class="fromleft contact">
+                        <p>contact me</p>
                     </li>
                 </ul>
             </div>
@@ -94,9 +94,9 @@
         </div>
     </section>
 
-    <section class="section02 con">
-        <div class="video-box flex justify-center mt-28">
-            <video class="my" src="./img/wa.mp4" muted autoplay loop autoplay muted></video>
+    <section class="section02 con pt-40">
+        <div class="video-box flex justify-center ">
+            <video class="my" src="./img/wa.mp4" muted autoplay loop></video>
 
         </div>
 
@@ -114,7 +114,7 @@
 
         <a href="#">
             <div class="btn-box flex justify-center items-center gap-2">
-                이력서 보기
+                <p>이력서 보기</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" fill="none" viewBox="0 0 14 8">
                     <path fill-rule="evenodd"
                         d="M11.793 3.5 9.646 1.354l.708-.708 3 3 .353.354-.353.354-3 3-.708-.708L11.793 4.5H0v-1h11.793Z"
@@ -141,24 +141,24 @@
                     <img src="./img/skill1.png" alt="">
                 </div>
 
-                <div class="skill-mainbox p-10 box-border">
-                        <ul class="skills flex flex-col justify-between bg-red-200">
-                            <li>
-                                <span>포토샵</span>
-                                <p>Figma , Adobe Xd , Illustrator</p>
-                                <div class="progress-bar-box progress-bar-box-80"></div>
-                            </li>
-                            <li>
-                                <span>일러스트</span>
-                                <p>Figma , Adobe Xd , Illustrator</p>
-                                <div class="progress-bar-box progress-bar-box-60"></div>
-                            </li>
-                            <li>
-                                <span>피그마</span>
-                                <p>Figma , Adobe Xd , Illustrator</p>
-                                <div class="progress-bar-box progress-bar-box-40"></div>
-                            </li>
-                        </ul>
+                <div class="skill-mainbox p-12 box-border">
+                    <ul class="skills flex flex-col justify-between">
+                        <li>
+                            <h1>BEST</h1>
+                            <p>Figma , Adobe XD , Illustrator</p>
+                            <div class="progress-bar-box progress-bar-box-80"></div>
+                        </li>
+                        <li>
+                            <h1>BETTER</h1>
+                            <p>Photoshop, Premiere Pro , After Effects, ProtoPie</p>
+                            <div class="progress-bar-box progress-bar-box-60"></div>
+                        </li>
+                        <li>
+                            <h1>GOOD</h1>
+                            <p>Blender, Html, Css</p>
+                            <div class="progress-bar-box progress-bar-box-40"></div>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -167,7 +167,7 @@
                     <img src="./img/work.png" alt="">
                 </div>
 
-                <div class="work-mainbox p-10 box-border flex flex-col gap-16">
+                <div class="work-mainbox p-12 box-border flex flex-col gap-16">
                     <div class="text-box flex gap-4">
                         <div class="icon-box flex items-center justify-cente">
                             <img src="./img/ui icon.png" alt="">
@@ -185,7 +185,7 @@
                         <div class="t-box">
                             <span><i class="fa-solid fa-check"></i> 재미를 주는 디자인</span>
 
-                            <p>보기만하는 단편적인 디자인이 아닌 사용자의 행동에 따라 재미있게 반응하는 인터랙션 관심이 많습니다.</p>
+                            <p>보기만하는 디자인이 아닌 사용자의 행동에 따라 재미있게 반응하는 인터랙션에 관심이 많습니다.</p>
                         </div>
                     </div>
                     <div class="text-box flex gap-4">
@@ -207,28 +207,211 @@
         <div class="title-box">
             PORTFOLIO
         </div>
-        <div class="port-box flex">
-            <div class="left">
-            </div>
-            <div class="right">
-                <h1>네이버 웹툰 소개 <br> 리디자인</h1>
-                <h2> 회사 소개 페이지임을 고려해 방문자들에게 네이버 웹툰
-                    기업의 이미지를 잘 전달함을 주 목적으로 제작했습니다.</h2>
-                <div class="p-box flex gap-6 pb-8">
-                    <span>사용툴</span>
-                    <p>figma, Visual Studio Code</p>
+        <ul>
+            <li class="port-box flex">
+                <div class="left">
                 </div>
-            </div>
-        </div>
+                <div class="right">
+                    <h1>네이버 웹툰 소개 <br> 리디자인</h1>
+                    <h2> 회사 소개 페이지임을 고려해 방문자들에게 네이버 웹툰
+                        기업의 이미지를 잘 전달함을 주 목적으로 제작했습니다.</h2>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>사용툴</span>
+                        <p>figma, Visual Studio Code</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>기여도</span>
+                        <p>100% (1인 프로젝트)</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-10">
+                        <span>제작 기간</span>
+                        <p>2022. 07</p>
+                    </div>
+
+                    <a href="https://kchh1213.github.io/naver-webtoon-redesign/" target='_blank' class="btn-box flex justify-center items-center gap-2">
+                        <p>사이트 보기</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" fill="none" viewBox="0 0 14 8">
+                            <path fill-rule="evenodd"
+                                d="M11.793 3.5 9.646 1.354l.708-.708 3 3 .353.354-.353.354-3 3-.708-.708L11.793 4.5H0v-1h11.793Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </li>
+
+            <li class="port-box flex">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h1>플래너 앱 <br>기획 ˙ 리디자인 </h1>
+                    <h2> 기존에 4인 팀원과 기획했던 앱으로, 스스로 아쉬웠거나
+                        부분을 다듬는 방향으로 앱을 기획, 리디자인 하였습니다.</h2>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>사용툴</span>
+                        <p>figma</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>기여도</span>
+                        <p>60%</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-10">
+                        <span>제작 기간</span>
+                        <p>2022. 08</p>
+                    </div>
+
+                    <a href="#" class="btn-box flex justify-center items-center gap-2">
+                        <p>소개 보기</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" fill="none" viewBox="0 0 14 8">
+                            <path fill-rule="evenodd"
+                                d="M11.793 3.5 9.646 1.354l.708-.708 3 3 .353.354-.353.354-3 3-.708-.708L11.793 4.5H0v-1h11.793Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </li>
+
+            <li class="port-box flex">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h1>나의 반려동물을<br>위한 펫 로봇</h1>
+                    <h2> Mew Bell은 반려동물의 시선에서 제작한 맞춤 인터랙션 로봇입니다. 이 프로젝트에서 UX, UI를 담당했습니다.</h2>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>사용툴</span>
+                        <p>protopie, premiere pro</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>기여도</span>
+                        <p>50%</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-10">
+                        <span>제작 기간</span>
+                        <p>2021. 04 ~ 2021. 06</p>
+                    </div>
+
+                    <div class="btn-box-wrap flex gap-6">
+                        <a href="#" class="btn-box flex justify-center items-center gap-2">
+                            <p>소개 보기</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" fill="none"
+                                viewBox="0 0 14 8">
+                                <path fill-rule="evenodd"
+                                    d="M11.793 3.5 9.646 1.354l.708-.708 3 3 .353.354-.353.354-3 3-.708-.708L11.793 4.5H0v-1h11.793Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="https://youtu.be/-XUoJwHSsFc" target='_blank' class="btn-box flex justify-center items-center gap-2">
+                            <p>영상 보기</p>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10 19C14.9706 19 19 14.9706 19 10C19 5.02944 14.9706 1 10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19ZM10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15 9.99999L7.5 5.66986L7.5 14.3301L15 9.99999ZM13 9.99999L8.5 7.40191L8.5 12.5981L13 9.99999Z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="port-box flex">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h1>모퉁이 어린이 도서관 <br> 웹디자인</h1>
+                    <h2> 지역구에 있는 모퉁이 어린이 도서관 홍보, 활성화 방법에 대한 리서치를 토대로 가상 웹사이트 디자인을 했습니다.</h2>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>사용툴</span>
+                        <p>Adobe XD</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-6">
+                        <span>기여도</span>
+                        <p>100% (웹 디자인)</p>
+                    </div>
+                    <div class="p-box flex gap-6 pb-10">
+                        <span>제작 기간</span>
+                        <p>2021. 06</p>
+                    </div>
+
+                    <a href="#" class="btn-box flex justify-center items-center gap-2">
+                        <p>소개 보기</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" fill="none" viewBox="0 0 14 8">
+                            <path fill-rule="evenodd"
+                                d="M11.793 3.5 9.646 1.354l.708-.708 3 3 .353.354-.353.354-3 3-.708-.708L11.793 4.5H0v-1h11.793Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+
     </section>
 
+    <section class="section05 con pt-52">
+        <div class="title-box">
+            OHTER WORK
+        </div>
+        <ul class="flex grid grid-cols-3 gap-6">
+            <li class="box">
+                <a href="#"><img src="./img/switch.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/achipad.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/cup-design.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/logo-design.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/golf-design.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/metacube-design.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/phone-design.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/samsung-design.png" alt=""></a>
+            </li>
+            <li class="box">
+                <a href="#"><img src="./img/emoticon-design.png" alt=""></a>
+            </li>
 
+        </ul>
+    </section>
 
-
-
-
-    <div class="box2"></div>
-
+    <section class="section06 con pt-60">
+        <div class="thank-box pb-8">
+            <p>읽어주셔서 감사합니다! <br>
+                연락을 원하신다면 이쪽으로 연락주세요!</p>
+        </div>
+        <div class="title-box">
+            <a target="_blank" href="mailto:kchh1213@naver.com">
+                kchh1213@naver.com</a>
+        </div>
+        <div class="mail-box">
+            <form class="flex flex-col gap-5" onsubmit="sendEmailForm(this); return false;"
+                action="https://formspree.io/f/mzbwzyra" method="POST">
+                <label>
+                    <input type="email" name="email" placeholder="회신을 원하는 이메일을 입력 해주세요.">
+                </label>
+                <label>
+                    <textarea name="message" placeholder="내용을 입력해주세요 :)"></textarea>
+                </label>
+                <button type="submit">보내기</button>
+            </form>
+            <img src="./img/message.png" alt="" class="message">
+            <img src="./img/mail.png" alt="" class="mail">
+        </div>
+    </section>
 
 </body>
 
