@@ -442,6 +442,7 @@ nav .bottom .text-box ul li:hover {
     right: 0;
     transition: 0.3s;
     z-index: 1;
+    pointer-events: none;
 }
 
 .section05 ul .box:hover::before {
@@ -460,6 +461,7 @@ nav .bottom .text-box ul li:hover {
     transition: 0.3s;
     opacity: 0;
     z-index: 2;
+    pointer-events: none;
 }
 
 .section05 .box:hover::after {
