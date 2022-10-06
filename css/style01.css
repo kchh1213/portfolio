@@ -263,7 +263,7 @@ nav .bottom .text-box ul li:hover {
 }
 
 .skills.active .progress-bar-box-40::after {
-    width: 40%;
+    width: 30%;
     transition: width 1s 1s;
 }
 
@@ -517,9 +517,21 @@ nav .bottom .text-box ul li:hover {
     font-size: 25px;
 }
 
+
+.section06 .title-box a {
+    display: inline-block;
+    transform: translate(-50%,0);
+    transition: 0.2s;
+    transform: scale(1);
+}
+
 .section06 a:hover {
     color: #001AFF;
+    transform: scale(1.1);
+    
 }
+
+
 
 .section06 form {
     max-width: 575px;
@@ -556,20 +568,34 @@ nav .bottom .text-box ul li:hover {
     color: white;
 }
 
-.section06 .mail-box{
+.section06 .mail-box {
     position: relative;
 }
 
-.section06 .mail-box .message{
+.section06 .mail-box .message {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
+    animation: fly 2.5s linear infinite;
 }
 
-.section06 .mail-box .mail{
+
+.section06 .mail-box .mail {
     position: absolute;
     bottom: 100px;
+    animation: mail 2.5s linear infinite;
 }
+
+@keyframes mail {
+    0% {}
+
+    50% {
+        margin-bottom: 30px;
+    }
+
+    100% {}
+}
+
 
 /* 커서를 올려두었을 때 input 테두리 여부 */
 input:focus,
